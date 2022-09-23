@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:wheater_app/app/core/enums.dart';
+import 'package:wheater_app/data/remote_data_sources/weather_remote_data_source.dart';
 import 'package:wheater_app/domain/models/weather_model.dart';
 import 'package:wheater_app/domain/repositories/weather_repository.dart';
 import 'package:wheater_app/features/home/cubit/home_cubit_cubit.dart';
@@ -15,7 +16,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => HomeCubit(
-        WeatherRepository(),
+        WeatherRepository(WeatherRemoteDataSource()),
       ),
       child: BlocListener<HomeCubit, HomeState>(
         listener: (context, state) {
