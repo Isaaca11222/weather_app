@@ -1,16 +1,7 @@
 # wheater_app
+An aplication made in Flutter using Rest Api to get current weather.
 
-A new Flutter project.
+## Screenshoot
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![ezgif com-gif-maker(3)](https://user-images.githubusercontent.com/109788736/193789487-dea80ec3-0920-43f8-b9ff-750daffcbbbc.gif)
