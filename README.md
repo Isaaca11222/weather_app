@@ -1,4 +1,4 @@
-# wheater_app
+# weather_app
 An aplication made in Flutter using Rest Api to get current weather.
 
 ## Screenshoot
